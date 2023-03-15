@@ -61,7 +61,7 @@ After the above requirements have been met:
 1. Install PHP dependencies
 
     ```bash
-    make install
+    composer install
     ```
 
 1. Expose the application to the wider Internet using [ngrok](https://ngrok.com/)
@@ -97,10 +97,10 @@ After the above requirements have been met:
 1. Run the application
 
     ```bash
-    make serve
+    php artisan serve
     ```
 
-1. Navigate to [http://localhost:8000](http://localhost:8000)
+1. Navigate to [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
     That's it!
 
